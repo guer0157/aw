@@ -1,6 +1,50 @@
+/*
+BLUE- rgba(39, 55, 178);
+VIOLETE - rgba(107, 124, 255);
+Mustar - rgba(255, 222, 107);
+GOLD - rgba(255, 207, 41);
+Cement - rgba(178, 173, 154);
+*/
 .center{
     text-align: center;
 }
-#mainHeader{
+.align{
     display: inline-block;
+}
+.liStyle{
+    list-style: circle;
+}
+#mainHeader{
+    text-align: center;   
+}
+#mainLogo{
+    padding: 3rem;
+}
+ul#navUl{
+    padding-left: 0;
+}
+li.align.liStyle{
+    font-size: 3rem;
+    padding: 0 2rem;
+}ul.nav{
+    border-top: 3px solid rgba(39, 55, 178);
+    padding-top: -1rem;
+}
+li#inicio{
+   border: 4px solid rgba(39, 55, 178);;
+    border-radius: 50%;
+    text-align: center;
+    width: 5rem;
+    height: 4.5rem;
+    padding: 0;
+    background-color: white;
+}
+a#round-btn{
+    display: inline-block;
+    vertical-align: middle;
+}
+#antobot-icon{
+    width: 2.5rem;
+    display: inline-block;
+    vertical-align: middle;
 }
