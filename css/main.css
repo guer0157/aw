@@ -80,7 +80,24 @@ img#antobot_icon:hover{
     transform: scale(1.2, 1.2);
 
 }
-
-h1#titulo{
-    margin-top: 0;
+#sec1{
+    height:40rem; 
+    background-color: rgba(39, 55, 178);
+}
+ul.ulFde{
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+li.liFade{
+    position: absolute;
+    left: 50%;
+    margin-left: -265px;
+}
+li.liFade>img{
+    width: 40rem;
+}
+img#multicode_img{
+    height: 32rem;
 }
