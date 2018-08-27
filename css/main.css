@@ -22,12 +22,15 @@ body{
     list-style: none;
 }
 #mainHeader{
-    text-align: center;   
+    text-align: center;
+    background-color: rgba(39, 55, 178);
+    padding-bottom: 3rem;
 }
 #mainLogo{
-    width: 25rem;
+    width: 20rem;
 }
 ul#navUl{
+    margin-top: 0;
     padding-left: 3.1rem;
     margin-bottom: 0;
     background-color: rgba(255, 207, 41);
