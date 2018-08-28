@@ -21,25 +21,39 @@ body{
 .liStyle{
     list-style: none;
 }
-#mainHeader{
+header{
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section#nav{
+    background-color: rgba(255, 207, 41, .7);
     text-align: center;
-    background-color: rgba(39, 55, 178);
+}
+#mainHeader{
+    text-align: left;
+    background-color: rgba(255, 207, 41, .7);
     padding-bottom: 3rem;
 }
 #mainLogo{
+    padding-left: 8rem;
     width: 20rem;
 }
 ul#navUl{
-    margin-top: 0;
-    padding-left: 3.1rem;
-    margin-bottom: 0;
-    background-color: rgba(255, 207, 41);
+    display: inline-block;
+    background-color: rgba(39, 55, 178);
+    width: 90%;
+    border-radius: 25px;
+    margin: 0 .5rem 3rem;
+    padding-left: 0;
 }
 li#productos_destacados,li#catalogo,li#iKEY,li#registrar_producto,li#noticias,li#distribuidores{
     font-size: 1.5rem;
     padding-top:.5rem;
     padding-bottom: .5rem;
     font-family:"Yanone Kaffeesatz", serif;
+    color: white;
 }
 li.align.liStyle{
     font-size: 3rem;
@@ -52,15 +66,15 @@ ul.nav{
 }
 li#inicio{
     position: absolute;
-    border: 1.5px solid rgba(178, 173, 154);
+    border: 1px solid rgba(178, 173, 154);
     box-shadow:0px 0 20px 4px rgba(0, 0, 0, .2) inset; 
-    top:20.3rem;
+    top:23.7rem;
     border-radius: 50%;
     text-align: center;
     width: 5rem;
     height: 4.5rem;
     padding: 0;
-    background-color: rgba(255, 207, 41);
+    background-color: white;
     z-index: 5;
 }
 li#registrar_producto{
@@ -87,7 +101,7 @@ img#antobot_icon:hover{
     height:40rem; 
     background-color: rgba(39, 55, 178);
 }
-ul.ulFde{
+ul#ulFade{
     list-style: none;
     position: relative;
     margin: 0;
