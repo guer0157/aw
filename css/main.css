@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kreon|Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Kreon|Yanone+Kaffeesatz|Raleway');
 /*
 BLUE- rgba(39, 55, 178);
 VIOLETE - rgba(107, 124, 255);
@@ -114,21 +114,21 @@ img#antobot_icon{
 
     transition: transform
 }
-img#antobot_icon:hover{
+li#productos_destacados:hover,li#catalogo:hover,li#iKEY:hover,li#registrar_producto:hover,li#noticias:hover,li#distribuidores:hover, img#antobot_icon:hover{
     transform: scale(1.2, 1.2);
-
 }
 /*Section One*/
 #sec1{
-    height:40rem; 
-    background-color: white;
-    padding-top: 3REM;
+    height:34rem; 
+    background-color:  rgba(178, 173, 154, .2);
+
 }
 ul#ulFade{
     list-style: none;
     position: relative;
     margin: 0;
-    padding: 0;
+    padding: 2rem 0;
+
 }
 li.liFade{
     position: absolute;
@@ -169,4 +169,44 @@ li.liFade:nth-child(1) {
   92% {
     opacity:0;
   }
+}
+/*About Section*/
+#AntoTech{
+    background-color: rgba(39, 55, 178, 1);
+    text-align: center;
+    margin: 0 auto;
+}
+h3#q{
+    vertical-align: middle;
+    margin: auto 0;
+    font-size: 5rem;
+
+    color: white;
+}
+h1#about, #AntoTech>h2{
+    display: block;
+    padding-top: 1rem;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    letter-spacing: 2px;
+    color: rgba(255, 207, 41, 1);
+}
+h1#about{
+    color: white;
+}
+h3#mission{
+    color: white;
+    padding: 1rem 0;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+#txt-About{
+    width: 60%;
+    color: white;
+    padding: 1rem 3rem;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1px;
+    line-height: 35px;
+    margin: 0 auto;
 }
