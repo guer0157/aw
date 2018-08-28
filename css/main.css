@@ -92,6 +92,7 @@ a#round-btn{
     vertical-align: middle;
 }
 img#antobot_icon{
+    background-color: rgba(178, 173, 154, .3);
     transition: transform
 }
 img#antobot_icon:hover{
@@ -114,9 +115,9 @@ li.liFade{
     position: absolute;
     left: 50%;
     margin-left: -285px;
-    opacity: 0
+    opacity: 0;
 }
-li.liFade>img{
+li.liFade>a>img{
     width: 40rem;
 }
 img#multicode_img{
