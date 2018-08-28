@@ -29,7 +29,7 @@ header{
 }
 #mainHeader{
     text-align: left;
-    background-color: rgba(255, 207, 41, .7);
+    background-color: rgba(39, 55, 178, .9);
     padding-bottom: 3rem;
 }
 #mainLogo{
@@ -38,17 +38,19 @@ header{
 }
 /*nav*/
 section#nav{
-    background-color: rgba(255, 207, 41, .7);
+    background-color: rgba(39, 55, 178, .9);
     text-align: center;
 }
 
 ul#navUl{
     display: inline-block;
-    background-color: rgba(178, 173, 154, .5);
+    background-color: rgba(255, 207, 41, 1);
     width: 83%;
     border-radius: 25px;
     margin: 0 .5rem 3rem;
     padding-left: 0;
+     border: 3px solid rgba(178, 173, 154, .2);
+    box-shadow:0px 0 20px 4px rgba(0, 0, 0, .2) inset;
 }
 li#productos_destacados,li#catalogo,li#iKEY,li#registrar_producto,li#noticias,li#distribuidores{
     font-size: 1.5rem;
@@ -61,13 +63,10 @@ li.align.liStyle{
     font-size: 3rem;
     padding: 0 2rem;
 }
-ul.nav{
-    border: 3px solid rgba(178, 173, 154, .2);
-    box-shadow:0px 0 20px 4px rgba(0, 0, 0, .2) inset;
-}
+
 li#inicio{
     position: absolute;
-    border: 1px solid rgba(178, 173, 154, .5);
+    border: 1px solid rgba(255, 207, 41, 1);
     box-shadow:0px 0 20px 4px rgba(0, 0, 0, .2) inset; 
     top:23.7rem;
     border-radius: 50%;
@@ -75,7 +74,7 @@ li#inicio{
     width: 5rem;
     height: 4.5rem;
     padding: 0;
-    background-color:rgba(178, 173, 154, .7);
+    background-color:rgba(255, 207, 41, 1);
     z-index: 5;
 }
 li#registrar_producto{
@@ -92,7 +91,7 @@ a#round-btn{
     vertical-align: middle;
 }
 img#antobot_icon{
-    background-color: rgba(178, 173, 154, .3);
+
     transition: transform
 }
 img#antobot_icon:hover{
