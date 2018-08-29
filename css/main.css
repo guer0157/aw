@@ -36,6 +36,7 @@ header{
 #mainLogo{
     padding-left: 10.7rem;
     width: 20rem;
+    padding-bottom: 3rem;
     
 }
 #tel{
@@ -191,6 +192,8 @@ h1#about, #AntoTech>h2{
     color: rgba(255, 207, 41, 1);
 }
 h1#about{
+    padding-top: 2rem;
+    margin-top: 0;
     color: white;
 }
 h3#mission{
