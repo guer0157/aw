@@ -89,7 +89,7 @@ li#inicio{
     position: absolute;
     border: 1px solid rgba(255, 207, 41, 1);
     box-shadow:0px 0 20px 4px rgba(0, 0, 0, .2) inset; 
-    top:24.8rem;
+    top:27.8rem;
     border-radius: 50%;
     text-align: center;
     width: 5rem;
@@ -123,6 +123,10 @@ li#productos_destacados:hover,li#catalogo:hover,li#iKEY:hover,li#registrar_produ
     height:34rem; 
     background-color:  rgba(178, 173, 154, .2);
 
+}
+#sec1>h1{
+    padding-top: 1rem;
+    margin-top:0;
 }
 ul#ulFade{
     list-style: none;
