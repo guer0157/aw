@@ -70,7 +70,7 @@ ul#navUl{
     border-radius: 25px;
     margin: 0 .5rem 3rem;
     padding-left: 0;
-     border: 3px solid rgba(178, 173, 154, .2);
+    border: 3px solid rgba(178, 173, 154, .2);
     box-shadow:0px 0 20px 4px rgba(0, 0, 0, .2) inset;
 }
 li#productos_destacados,li#catalogo,li#iKEY,li#registrar_producto,li#noticias,li#distribuidores{
@@ -112,7 +112,6 @@ a#round-btn{
     vertical-align: middle;
 }
 img#antobot_icon{
-
     transition: transform
 }
 li#productos_destacados:hover,li#catalogo:hover,li#iKEY:hover,li#registrar_producto:hover,li#noticias:hover,li#distribuidores:hover, img#antobot_icon:hover{
@@ -120,11 +119,12 @@ li#productos_destacados:hover,li#catalogo:hover,li#iKEY:hover,li#registrar_produ
 }
 /*Section One*/
 #sec1{
-    height:34rem; 
+    height:40rem; 
     background-color:  rgba(178, 173, 154, .2);
 
 }
 #sec1>h1{
+    font-family:"Yanone Kaffeesatz", serif;
     padding-top: 1rem;
     margin-top:0;
 }
@@ -216,4 +216,26 @@ h3#mission{
     letter-spacing: 1px;
     line-height: 35px;
     margin: 0 auto;
+}
+/*Section Areas*/
+section#areas{
+    background-color: rgba(39, 55, 178, 1);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+}
+section#areas>div{
+    padding: 0 3%;
+    width: 30%;
+}
+section#areas>div>h2{
+    color: rgba(255, 207, 41, 1);
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    letter-spacing: 1px;
+}
+section#areas>div>p{
+    font-family: "Raleway", sans-serif;
+    line-height: 1.8rem;
+    color: white;
 }
