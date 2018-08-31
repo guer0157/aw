@@ -239,3 +239,6 @@ section#areas>div>p{
     line-height: 1.8rem;
     color: white;
 }
+img#venta-img,img#des-img{
+    width: 15rem;
+}
