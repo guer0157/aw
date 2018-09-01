@@ -242,3 +242,13 @@ section#areas>div>p{
 img#venta-img,img#des-img, img#cap-img{
     width: 15rem;
 }
+#footer{
+    background-color: rgba(247, 52, 63, .95);
+}
+#derechos{
+ background-color: black;
+    color: white;
+    margin-bottom: 0;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    letter-spacing: 2px;
+}
