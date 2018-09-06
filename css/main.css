@@ -227,7 +227,7 @@ section#areas>div{
     margin: 2%;
     width: 30%;
     background-color: rgba(255,255,255,.4);
-    border: .5px solid rgba(255,255,255,.9)
+    border: .5px solid rgba(255,255,255,.9);
 }
 section#areas>div>h2{
     color: rgba(255, 207, 41, 1);
@@ -237,7 +237,7 @@ section#areas>div>h2{
 section#areas>div>p{
     font-family: "Raleway", sans-serif;
     line-height: 1.8rem;
-    color: white;
+    color: black;
 }
 img#venta-img,img#des-img, img#cap-img{
     width: 15rem;
