@@ -245,30 +245,43 @@ p#mission{
 #footer-section{
     height:20rem;
     background-color: rgba(255, 207, 41, 1);
+    margin: 0 auto;
 }
 #footer{
     height: inherit;
     background-color: rgba(0, 0, 0, .5);
+    margin: 0 auto;
 }
 #footer1{
-    width: 50%;
+    width: 40%;
     padding: 1rem 0 1rem 1rem;
 }
 #footer1>h2{
     font-size: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
     font-family: "Yanone Kaffeesatz", sans-serif;
     letter-spacing: 3px;
+    margin: 0;
 }
 #footer1>legend{
     font-size: 1.2rem;
     padding: .5rem;
+    padding-left: 0;
+    font-family: "Raleway", sans-serif;
+    color: white;
 }
 #footer1>#pregunta{
     width: 80%;
-    height: 50%;
+    height: 50px;
 }
-
+#footer2{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    width: 40%;
+}
+#footer2>h2{
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    letter-spacing: 3px;
+}
 #derechos{
     background-color: black;
     color: white;
