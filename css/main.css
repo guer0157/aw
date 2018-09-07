@@ -121,39 +121,6 @@ img#antobot_icon{
 li#productos_destacados:hover,li#catalogo:hover,li#iKEY:hover,li#registrar_producto:hover,li#noticias:hover,li#distribuidores:hover, img#antobot_icon:hover{
     transform: scale(1.2, 1.2);
 }
-/*Mission section*/
-#mission-section{
-    background-color: rgba(39, 55, 178, 1);
-    height: 15rem;
-    margin: 0;
-}
-#mission-div{
-    height: inherit;
-    vertical-align: middle;
-}
-#mission-div>h1{
-    display: block;
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    letter-spacing: 3px;
-    margin-top:0;
-    padding: 2rem;
-    color: rgba(255, 207, 41, 1);
-}
-h3#q{
-    vertical-align: middle;
-    margin: auto 0;
-    font-size: 5rem;
-    color: white;
-}
-
-p#mission{
-    color: white;
-    padding: 1rem 0;
-    font-family: "Raleway", sans-serif;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-    line-height: 35px;
-}
 
 /*Section One*/
 #sec1{
@@ -216,7 +183,7 @@ li.liFade:nth-child(1) {
 }
 /*Section Areas*/
 section#areas{
-    background-color: rgba(178, 173, 154, .2);
+    background-color: rgba(39, 55, 178, 1);
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -226,8 +193,6 @@ section#areas>div{
 /*    padding: 0 3%;*/
     margin: 2%;
     width: 30%;
-    background-color: rgba(255,255,255,.4);
-    border: .5px solid rgba(255,255,255,.9);
 }
 section#areas>div>h2{
     color: rgba(255, 207, 41, 1);
@@ -237,27 +202,78 @@ section#areas>div>h2{
 section#areas>div>p{
     font-family: "Raleway", sans-serif;
     line-height: 1.8rem;
-    color: black;
+    color: white;
 }
 img#venta-img,img#des-img, img#cap-img{
     width: 15rem;
 }
+/*Mission section*/
+#mission-section{
+    background-color: rgba(178, 173, 154, .2);
+    height: 15rem;
+    margin: 0;
+}
+#mission-div{
+    height: inherit;
+    vertical-align: middle;
+}
+#mission-div>h1{
+    display: block;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    letter-spacing: 3px;
+    margin-top:0;
+    padding: 2rem;
+    color: black;
+}
+h3#q{
+    vertical-align: middle;
+    margin: auto 0;
+    font-size: 5rem;
+    color: black;
+}
+
+p#mission{
+    color: black;
+    padding: 1rem 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
 
 /*footer*/
-#footer{
+#footer-section{
+    height:20rem;
     background-color: rgba(255, 207, 41, 1);
-/*        rgba(247, 52, 63, .95);*/
 }
+#footer{
+    height: inherit;
+    background-color: rgba(0, 0, 0, .5);
+}
+#footer1{
+    width: 50%;
+    padding: 1rem 0 1rem 1rem;
+}
+#footer1>h2{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    letter-spacing: 3px;
+}
+#footer1>legend{
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+#footer1>#pregunta{
+    width: 80%;
+    height: 50%;
+}
+
 #derechos{
- background-color: black;
+    background-color: black;
     color: white;
     margin: 0;
     font-family: "Yanone Kaffeesatz", sans-serif;
     letter-spacing: 2px;
-}
-footer>div{
-    background-color: rgba(0, 0, 0, .5);
-}
-#footer2>h2{
-    margin: 0;
+    vertical-align: bottom;
 }
