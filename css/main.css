@@ -124,7 +124,7 @@ li#productos_destacados:hover,li#catalogo:hover,li#iKEY:hover,li#registrar_produ
 
 /*Section One*/
 #sec1{
-    height:40rem; 
+    height:45rem; 
     background-color:  rgba(178, 173, 154, .2);
 
 }
@@ -143,33 +143,31 @@ ul#ulFade{
 }
 li.liFade{
     position: absolute;
-    left: 50%;
-    margin-left: -285px;
+    left: 27.5%;
     opacity: 0;
 }
 li.liFade>a>img{
-    width: 40rem;
-}
-img#multicode_img{
     height: 32rem;
 }
 /*Slide show animation*/
+li.liFade:nth-child(6) {
+  animation: xfade 24s 0s infinite;
+}
 li.liFade:nth-child(5) {
-  animation: xfade 20s 0s infinite;
+  animation: xfade 24s 4s infinite;
 }
 li.liFade:nth-child(4) {
-  animation: xfade 20s 4s infinite;
+  animation: xfade 24s 8s infinite;
 }
 li.liFade:nth-child(3) {
-  animation: xfade 20s 8s infinite;
+  animation: xfade 24s 12s infinite;
 }
 li.liFade:nth-child(2) {
-  animation: xfade 20s 12s infinite;
+  animation: xfade 24s 16s infinite;
 }
 li.liFade:nth-child(1) {
-  animation: xfade 20s 16s infinite;
+  animation: xfade 24s 20s infinite;
 }
-
 @keyframes xfade{
   17% {
     opacity:1;
@@ -281,6 +279,20 @@ p#mission{
 #footer2>h2{
     font-family: "Yanone Kaffeesatz", sans-serif;
     letter-spacing: 3px;
+}
+#pregunta-btn{
+    width: 6rem;
+    height: 2rem;
+    display: table;
+    border-radius: 25px;
+    background-color: rgba(39, 55, 178, 1);
+    margin-top: 1rem;
+}
+#btn-texto{
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    vertical-align:middle; 
 }
 #derechos{
     background-color: black;
