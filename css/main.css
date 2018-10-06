@@ -73,16 +73,13 @@ ul#navUl{
     border: 3px solid rgba(178, 173, 154, .2);
     box-shadow:0px 0 20px 4px rgba(0, 0, 0, .2) inset;
 }
-li#productos_destacados,li#catalogo,li#iKEY,li#registrar_producto,li#noticias,li#distribuidores{
-    font-size: 1.5rem;
+li#empty,li#productos_destacados,li#catalogo,li#iKEY,li#registrar_producto,li#noticias,li#distribuidores{
+    font-size: 1rem;
     padding-top:.5rem;
     padding-bottom: .5rem;
+    width: 13%;
     font-family:"Yanone Kaffeesatz", serif;
     color: #000;
-}
-li.align.liStyle{
-    font-size: 3rem;
-    padding: 0 2rem;
 }
 
 li#inicio{
@@ -90,7 +87,7 @@ li#inicio{
     border: 1px solid rgba(255, 207, 41, 1);
     box-shadow:0px 0 20px 4px rgba(0, 0, 0, .2) inset; 
     top:27.8rem;
-    left:653px;
+    left:705px;
     border-radius: 50%;
     text-align: center;
     width: 5rem;
@@ -98,12 +95,6 @@ li#inicio{
     padding: 0;
     background-color:rgba(255, 207, 41, 1);
     z-index: 5;
-}
-li#iKEY{
-    margin-left: 4rem;
-}
-li#noticias{
-    margin-right: 4rem;
 }
 
 a#round-btn{
@@ -143,7 +134,7 @@ ul#ulFade{
 }
 li.liFade{
     position: absolute;
-    left: 27.5%;
+    left: 29.3%;
     opacity: 0;
 }
 li.liFade>a>img{
